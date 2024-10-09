@@ -4,6 +4,7 @@
     --bg-color: #1d0627;
     --primary-color: #d2e2d2;
     --secondary-color: #ff00ff;
+    --terceary-color: red;
     --font: "Nunito Sans", sans-serif;
 }
 
@@ -58,7 +59,7 @@ nav a:hover {
     font-size: 1.3rem;
     text-align: center;
     padding: 2rem;
-    border: var(color rgba(247, 0, 0, 0.966)) solid 2px;
+    border: var(--terceary-color) solid 2px;
 }
 
 span {
