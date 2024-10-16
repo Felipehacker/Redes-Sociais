@@ -13,7 +13,7 @@ async function quantidadeUsuariosPorRede() {
             y: quantidadeDeUsuarios, 
             type: 'bar',
             marker: {
-                color: getCSS('--primary-color')
+                color: getCSS('--grafico')
             }
         }
     ]
@@ -25,7 +25,7 @@ async function quantidadeUsuariosPorRede() {
             text: 'Redes sociais com mais usuários',
             x: 0,
             font: {
-                color: getCSS('--primary-color'),
+                color: getCSS('--new-color'),
                 size: 30,
                 font: getCSS('--font')
             }
